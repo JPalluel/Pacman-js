@@ -1,0 +1,89 @@
+body{
+    background-image: url("../images/water2.jpg");
+    background-size:100%;
+    font-family: 'Yusei Magic', sans-serif;
+}
+/* Score */
+#game{
+    display: flex;
+    flex-direction: row;
+}
+
+#title{
+    text-align: center;
+}
+
+#score{
+    color:black;
+    z-index:1;
+    margin:auto
+}
+
+.grid {
+    margin: auto;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: none
+
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.plancton{
+    background-color:#96f583;   
+    border: 1px solid #1492E3;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-image: url("../images/sand2.jpg");
+    background-size: 400%;
+}
+
+.recycle{
+    background-image: url("../images/recycle-logo-A2DC7A4E5A-seeklogo.com.png"); 
+    background-size: 90%;
+    background-repeat: no-repeat
+}
+
+.mask {
+    
+    background-image: url("../images/gas-30170_1280.png");
+    background-size: 100%;
+    background-position: center;
+}
+
+.tire {
+    background-image: url("../images/pneu2.png");
+    background-size: 120%;
+    background-position: center;
+}
+
+.bottle {
+    background-image: url("../images/cannette-removebg-preview.png");
+    background-size: cover;
+    /*transform: rotate(90deg);*/
+}
+
+.plasticBag {
+    background-image: url("../images/poub-removebg-preview.png");
+    background-size: cover;
+    background-position: center;;     
+}
+
+.pac-man {
+    background-image: url("../images/scary-2493029_1280.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.scaredFantom {
+opacity: 0.5;
+}
